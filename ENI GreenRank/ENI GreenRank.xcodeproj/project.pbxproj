@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		618F670A2100D27E00074B50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618F67092100D27E00074B50 /* AppDelegate.swift */; };
+		618F670C2100D27E00074B50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618F670B2100D27E00074B50 /* ViewController.swift */; };
+		618F670F2100D27E00074B50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618F670D2100D27E00074B50 /* Main.storyboard */; };
+		618F67122100D27E00074B50 /* ENI_GreenRank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 618F67102100D27E00074B50 /* ENI_GreenRank.xcdatamodeld */; };
+		618F67142100D28000074B50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618F67132100D28000074B50 /* Assets.xcassets */; };
+		618F67172100D28000074B50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 618F67152100D28000074B50 /* LaunchScreen.storyboard */; };
+		618F67222100D28000074B50 /* ENI_GreenRankTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618F67212100D28000074B50 /* ENI_GreenRankTests.swift */; };
+		618F672D2100D28000074B50 /* ENI_GreenRankUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618F672C2100D28000074B50 /* ENI_GreenRankUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		618F671E2100D28000074B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 618F66FE2100D27D00074B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 618F67052100D27D00074B50;
+			remoteInfo = "ENI GreenRank";
+		};
+		618F67292100D28000074B50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 618F66FE2100D27D00074B50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 618F67052100D27D00074B50;
+			remoteInfo = "ENI GreenRank";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		618F67062100D27E00074B50 /* ENI GreenRank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ENI GreenRank.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		618F67092100D27E00074B50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		618F670B2100D27E00074B50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		618F670E2100D27E00074B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		618F67112100D27E00074B50 /* ENI_GreenRank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ENI_GreenRank.xcdatamodel; sourceTree = "<group>"; };
+		618F67132100D28000074B50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		618F67162100D28000074B50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		618F67182100D28000074B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618F671D2100D28000074B50 /* ENI GreenRankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ENI GreenRankTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		618F67212100D28000074B50 /* ENI_GreenRankTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENI_GreenRankTests.swift; sourceTree = "<group>"; };
+		618F67232100D28000074B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618F67282100D28000074B50 /* ENI GreenRankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ENI GreenRankUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		618F672C2100D28000074B50 /* ENI_GreenRankUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENI_GreenRankUITests.swift; sourceTree = "<group>"; };
+		618F672E2100D28000074B50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		618F67032100D27D00074B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618F671A2100D28000074B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618F67252100D28000074B50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		618F66FD2100D27D00074B50 = {
+			isa = PBXGroup;
+			children = (
+				618F67082100D27E00074B50 /* ENI GreenRank */,
+				618F67202100D28000074B50 /* ENI GreenRankTests */,
+				618F672B2100D28000074B50 /* ENI GreenRankUITests */,
+				618F67072100D27E00074B50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		618F67072100D27E00074B50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				618F67062100D27E00074B50 /* ENI GreenRank.app */,
+				618F671D2100D28000074B50 /* ENI GreenRankTests.xctest */,
+				618F67282100D28000074B50 /* ENI GreenRankUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		618F67082100D27E00074B50 /* ENI GreenRank */ = {
+			isa = PBXGroup;
+			children = (
+				618F67092100D27E00074B50 /* AppDelegate.swift */,
+				618F670B2100D27E00074B50 /* ViewController.swift */,
+				618F670D2100D27E00074B50 /* Main.storyboard */,
+				618F67132100D28000074B50 /* Assets.xcassets */,
+				618F67152100D28000074B50 /* LaunchScreen.storyboard */,
+				618F67182100D28000074B50 /* Info.plist */,
+				618F67102100D27E00074B50 /* ENI_GreenRank.xcdatamodeld */,
+			);
+			path = "ENI GreenRank";
+			sourceTree = "<group>";
+		};
+		618F67202100D28000074B50 /* ENI GreenRankTests */ = {
+			isa = PBXGroup;
+			children = (
+				618F67212100D28000074B50 /* ENI_GreenRankTests.swift */,
+				618F67232100D28000074B50 /* Info.plist */,
+			);
+			path = "ENI GreenRankTests";
+			sourceTree = "<group>";
+		};
+		618F672B2100D28000074B50 /* ENI GreenRankUITests */ = {
+			isa = PBXGroup;
+			children = (
+				618F672C2100D28000074B50 /* ENI_GreenRankUITests.swift */,
+				618F672E2100D28000074B50 /* Info.plist */,
+			);
+			path = "ENI GreenRankUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		618F67052100D27D00074B50 /* ENI GreenRank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618F67312100D28000074B50 /* Build configuration list for PBXNativeTarget "ENI GreenRank" */;
+			buildPhases = (
+				618F67022100D27D00074B50 /* Sources */,
+				618F67032100D27D00074B50 /* Frameworks */,
+				618F67042100D27D00074B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ENI GreenRank";
+			productName = "ENI GreenRank";
+			productReference = 618F67062100D27E00074B50 /* ENI GreenRank.app */;
+			productType = "com.apple.product-type.application";
+		};
+		618F671C2100D28000074B50 /* ENI GreenRankTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618F67342100D28000074B50 /* Build configuration list for PBXNativeTarget "ENI GreenRankTests" */;
+			buildPhases = (
+				618F67192100D28000074B50 /* Sources */,
+				618F671A2100D28000074B50 /* Frameworks */,
+				618F671B2100D28000074B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				618F671F2100D28000074B50 /* PBXTargetDependency */,
+			);
+			name = "ENI GreenRankTests";
+			productName = "ENI GreenRankTests";
+			productReference = 618F671D2100D28000074B50 /* ENI GreenRankTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		618F67272100D28000074B50 /* ENI GreenRankUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618F67372100D28000074B50 /* Build configuration list for PBXNativeTarget "ENI GreenRankUITests" */;
+			buildPhases = (
+				618F67242100D28000074B50 /* Sources */,
+				618F67252100D28000074B50 /* Frameworks */,
+				618F67262100D28000074B50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				618F672A2100D28000074B50 /* PBXTargetDependency */,
+			);
+			name = "ENI GreenRankUITests";
+			productName = "ENI GreenRankUITests";
+			productReference = 618F67282100D28000074B50 /* ENI GreenRankUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		618F66FE2100D27D00074B50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Vince;
+				TargetAttributes = {
+					618F67052100D27D00074B50 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					618F671C2100D28000074B50 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 618F67052100D27D00074B50;
+					};
+					618F67272100D28000074B50 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 618F67052100D27D00074B50;
+					};
+				};
+			};
+			buildConfigurationList = 618F67012100D27D00074B50 /* Build configuration list for PBXProject "ENI GreenRank" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 618F66FD2100D27D00074B50;
+			productRefGroup = 618F67072100D27E00074B50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				618F67052100D27D00074B50 /* ENI GreenRank */,
+				618F671C2100D28000074B50 /* ENI GreenRankTests */,
+				618F67272100D28000074B50 /* ENI GreenRankUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		618F67042100D27D00074B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618F67172100D28000074B50 /* LaunchScreen.storyboard in Resources */,
+				618F67142100D28000074B50 /* Assets.xcassets in Resources */,
+				618F670F2100D27E00074B50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618F671B2100D28000074B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618F67262100D28000074B50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		618F67022100D27D00074B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618F670C2100D27E00074B50 /* ViewController.swift in Sources */,
+				618F670A2100D27E00074B50 /* AppDelegate.swift in Sources */,
+				618F67122100D27E00074B50 /* ENI_GreenRank.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618F67192100D28000074B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618F67222100D28000074B50 /* ENI_GreenRankTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618F67242100D28000074B50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618F672D2100D28000074B50 /* ENI_GreenRankUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		618F671F2100D28000074B50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 618F67052100D27D00074B50 /* ENI GreenRank */;
+			targetProxy = 618F671E2100D28000074B50 /* PBXContainerItemProxy */;
+		};
+		618F672A2100D28000074B50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 618F67052100D27D00074B50 /* ENI GreenRank */;
+			targetProxy = 618F67292100D28000074B50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		618F670D2100D27E00074B50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618F670E2100D27E00074B50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		618F67152100D28000074B50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				618F67162100D28000074B50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		618F672F2100D28000074B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		618F67302100D28000074B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		618F67322100D28000074B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2SQ7F4N43;
+				INFOPLIST_FILE = "ENI GreenRank/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GreenTeam.ENI-GreenRank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		618F67332100D28000074B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2SQ7F4N43;
+				INFOPLIST_FILE = "ENI GreenRank/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GreenTeam.ENI-GreenRank";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		618F67352100D28000074B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2SQ7F4N43;
+				INFOPLIST_FILE = "ENI GreenRankTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GreenTeam.ENI-GreenRankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ENI GreenRank.app/ENI GreenRank";
+			};
+			name = Debug;
+		};
+		618F67362100D28000074B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2SQ7F4N43;
+				INFOPLIST_FILE = "ENI GreenRankTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GreenTeam.ENI-GreenRankTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ENI GreenRank.app/ENI GreenRank";
+			};
+			name = Release;
+		};
+		618F67382100D28000074B50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2SQ7F4N43;
+				INFOPLIST_FILE = "ENI GreenRankUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GreenTeam.ENI-GreenRankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ENI GreenRank";
+			};
+			name = Debug;
+		};
+		618F67392100D28000074B50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2SQ7F4N43;
+				INFOPLIST_FILE = "ENI GreenRankUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "GreenTeam.ENI-GreenRankUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ENI GreenRank";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		618F67012100D27D00074B50 /* Build configuration list for PBXProject "ENI GreenRank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618F672F2100D28000074B50 /* Debug */,
+				618F67302100D28000074B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618F67312100D28000074B50 /* Build configuration list for PBXNativeTarget "ENI GreenRank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618F67322100D28000074B50 /* Debug */,
+				618F67332100D28000074B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618F67342100D28000074B50 /* Build configuration list for PBXNativeTarget "ENI GreenRankTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618F67352100D28000074B50 /* Debug */,
+				618F67362100D28000074B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618F67372100D28000074B50 /* Build configuration list for PBXNativeTarget "ENI GreenRankUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618F67382100D28000074B50 /* Debug */,
+				618F67392100D28000074B50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		618F67102100D27E00074B50 /* ENI_GreenRank.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				618F67112100D27E00074B50 /* ENI_GreenRank.xcdatamodel */,
+			);
+			currentVersion = 618F67112100D27E00074B50 /* ENI_GreenRank.xcdatamodel */;
+			path = ENI_GreenRank.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 618F66FE2100D27D00074B50 /* Project object */;
+}
